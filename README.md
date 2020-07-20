@@ -63,8 +63,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+closure is created when personalDice returns a callback function. I can tell because closure is created when a function appears inside another function.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+The name "Dan" will always be the same since dansRoll was declared with personalDice("Dan"). What could change is the dice roll since each time dansRoll() is called, we get a new roll calculated.
+
 c. What is the lexical scope of `newRoll`? 
+
+the lexical scope is the scope of the function personalDice because the function that defines newRoll is a function inside of the personalDice function.
 
 ### Task 2c - Exit Ticket
 
